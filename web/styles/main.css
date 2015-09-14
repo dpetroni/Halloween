@@ -1,0 +1,44 @@
+/*
+Copyright (c) 2015 David Petroni
+*/
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 25px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+#big_letter::first-letter{
+    font-size: 35px;
+}
+img{
+    float: left;
+}
+.head{
+    text-indent: 5%;
+}
+.first_head{
+    color: orange; font-style: italic;
+    text-shadow: 2px 2px black;
+}
+
+a:link{
+    color: orange; font-weight: bold;
+}
+a:hover{
+    color: green;
+}
+li{
+    margin-top: 1em;
+}
+#foot{
+    font-size: 50%;
+    text-align: center;
+}
