@@ -9,6 +9,8 @@ Copyright (c) 2015 David Petroni
 
 h1{
     font-size: 25px;
+    padding:0;
+    margin:0;
 }
 
 h2{
@@ -47,16 +49,39 @@ li{
     border: 1px solid black;
     background: linear-gradient(45deg, black , orange 25%, white);
     background-color: orange;
+    clear: both;
 }
 body{
+    
     width: 800px;
     background-color: white;
     border-style: solid;
     border-color: black;
     box-shadow: 0px 10px 10px 5px #888888;
     margin: 0 auto;
+    
 }
+.side_list{
+    float: left;
+    width: 160px;
+    height: 100%;
+}
+#right_mat{
+
+    float: right;
+    width: 640px;
+    height: 100%;
+    
+}
+#cat_link{
+    clear: both;
+}
+
+
 html{
     background-image: url('../images/bats.gif');
 
+}
+.bod{
+    margin: 0 auto;
 }
