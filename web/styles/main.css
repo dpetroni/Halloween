@@ -61,7 +61,7 @@ body{
     margin: 0 auto;
     
 }
-.side_list{
+#side_list{
     float: left;
     width: 160px;
     height: 100%;
