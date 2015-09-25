@@ -1,0 +1,200 @@
+/*
+Copyright (c) 2015 David Petroni
+*/
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 25px;
+    padding:0;
+    margin:0;
+}
+
+h2{
+    font-size: 25px;
+}
+
+#big_letter::first-letter{
+    font-size: 35px;
+}
+img{
+    float: left;
+}
+.head{
+    text-indent: 5%;
+    border: 1px solid black;
+    background: linear-gradient(45deg, white , orange 75%, black);
+    background-color: orange;
+
+}
+.first_head{
+    
+}
+
+li{
+    margin-top: 1em;
+}
+#foot{
+    font-size: 50%;
+    text-align: center;
+    border: 1px solid black;
+    background: linear-gradient(45deg, black , orange 25%, white);
+    background-color: orange;
+    clear: both;
+}
+body{
+    
+    max-width: 960px;
+    width:95%;
+    
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 0px 10px 10px 5px #888888;
+    margin: 0 auto;
+    
+}
+
+img pump{
+    max-width: 85px;
+    width: 100%;
+    min-width: 40px;
+}
+img catPic{
+    max-width: 154px;
+    width:100%;
+}
+
+#side_list{
+    float: left;
+    width: 16.6%;
+    height: 100%;
+}
+
+#side_list ul{
+    padding: 0;
+    margin: 0;
+}
+
+#right_mat{
+
+    float: right;
+    width: 66.66%;
+    height: 100%;
+    
+}
+#cat_link{
+    clear: both;
+}
+
+
+html{
+    background-image: url('../images/bats.gif');
+
+}
+.bod{
+    margin: 0 auto;
+}
+
+#navBar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navItems{
+    float: left;
+    font-size: 1em;
+    line-height: 2em;
+    display: block;
+    width: 160px;
+    background-color: black;
+   
+}
+
+
+#menu
+a:link{
+    color: white; font-weight: bold;
+    text-decoration: none;
+}
+#home
+a:link{
+    color: orange;
+}
+
+#menu
+.navItems:hover{
+    color: black;
+    background-color: grey;
+}
+
+#side_list
+a:link{
+    color: black; font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin-left: 5px;
+ 
+    
+}
+#side_list
+a:hover{
+    color: green;
+}
+
+.side_item{
+    
+    display: block;
+    line-height: 2em;
+    width: 8em;
+    border-style: solid;
+    
+    text-align: left;
+    background-color: orange;
+    
+}
+.navItems
+#home{
+    color: orange;
+}
+
+#hamburger{
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    html{background-image: none;}
+    body{font-size: 90%;}
+    #hamburger {
+        display:none;
+    }
+                                              
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .navItems{
+        display: none;
+    }
+    
+     #hamburger {
+     display: block;
+     float: right;
+     padding-right: 2em;
+     text-decoration: none;
+     color: black;
+     line-height: 2em;
+   }
+   #side_list{
+    float: bottom;
+    width: 16.6%;
+    height: 100%;
+}
+                                              
+}
